@@ -60,6 +60,8 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42,
     stratify=y
 )
+
+
 random_state=42 → fixes the random seed so the train/test split is the same every time (e.g., running the code twice gives identical splits).
 stratify=y → ensures the train and test sets keep the same class proportion as the original dataset (e.g., if original data is 90% No Churn and 10% Churn, both train and test will also be 90/10).
 

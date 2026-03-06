@@ -158,3 +158,6 @@ Top Influential Features:
 
 ## Conclusion
 This project demonstrates end-to-end ML pipeline development, model comparison, cross-validation, and business insight extraction.
+
+# Why RF as 99 accuracy?
+- The dataset contains behavioral variables such as payment delay and support calls that are strongly correlated with churn. Because Random Forest can capture nonlinear relationships and feature interactions, it achieved very high performance on this dataset.
